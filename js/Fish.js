@@ -8,7 +8,7 @@ AFRAME.registerComponent("fish", {
       const posZ = Math.random() * 60 + -40;
       const position = { x: posX, y: posY, z: posZ };
       this.genrateFish(id, position);
-    }
+    } 
   },
   genrateFish: function (id, position) {
     const fishModelEntity = document.querySelector("#fishModels");
